@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fa{
+    color: blue;
+    background: darkgray;
+    padding: -10px;
+    border-radius: 5px;
+    font-size: 19px;
+}
+.img-fluid{
+    width: 100%;
+    height: 50vh;
+}

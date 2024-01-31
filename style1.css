@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(./image/tv\ show05.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.box img{
+    width: 15%;
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-right: 150px;
+}
+.rich{
+    margin-left: 400px;
+    margin-top: -30px;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: -50px;
+}
+.box a:hover{
+    color: yellow;
+}
+.sign{
+    margin-left: 1200px;
+    display: flex;
+    margin-top: -20px;
+    color: white;
+    gap: 50px;
+}
+.fa-search{
+    font-size: 20px;
+}
+.sign p{
+    color: yellow;
+    margin-right: 10px;
+}
+.fa-caret-down{
+    margin-left: 10px;
+}
+.sign button{
+   padding: 10px 20px 10px 20px;
+   border: 2px solid yellow;
+   color: white;
+   border-radius: 30px;
+   background-color: black; 
+   margin-top: -10px;
+   font-weight: 900;
+}
+.sign button:hover{
+    background-color: yellow;
+}
+.we1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 600px;
+    margin-top: -150px;
+}
+.we2{
+    margin-top: -75px;
+    margin-left: 10px;
+    color: white;
+    font-size: 23px;
+}
+.wee1{
+    margin-left: -180px;
+    margin-top: -70px;
+    text-decoration: none;
+    color: yellow;
+}
+.container1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url(./image/contact06.jpg);
+    height: 120vh;
+    background-size: cover;
+    margin-top: -155px;
+}
+.box1{
+    width: 400px;
+    height: 430px;
+    background-color: rgb(31,30,36);
+    margin-left: 1000px;
+    margin-top: 70px;
+}
+.two{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+.tow{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 1000px;
+    margin-top: -45px;
+}
+.tw{
+    margin-right: 1347px;
+    margin-left: 120px;
+    background-color: rgb(202, 202, 11);
+    padding: 2px;
+    border: none;
+    margin-top: 15px;
+}
+.tw1{
+    margin-left: 1000px;
+    margin-right: 470px;
+    background-color: rgb(202, 202, 11);
+    padding: 2px;
+    border: none;
+    margin-top: 15px;
+}
+.tww{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+.me1{
+    width: 80%;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(236, 235, 235);
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.me2{
+    color: white;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.mee{
+    color: rgb(216, 211, 211);
+    margin-left: 160px;
+    margin-top: -17px;
+}
+.cycle{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(235, 235, 18);
+    border-radius: 200px;
+    margin-top: -60px;
+    margin-left: 40px;
+}
+.fa-facebook{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.fa-phone{
+    margin-left: 12px;
+    margin-top: 13px;
+    font-size: 20px;
+}
+.fa-envelope{
+    margin-left: 11px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.box2{
+    width: 820px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(31, 30, 36, 0.171);
+    margin-top: -430px;
+    margin-left: 120px;
+    border: 1px solid rgba(119, 113, 113, 0.336);
+}
+.com{
+    width: 363px;
+    height: 50px;
+    background-color: rgb(31,30,36);
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.con{
+    width: 363px;
+    height: 50px;
+    background-color: rgb(31,30,36);
+    border-radius: 5px;
+    margin-left: 430px;
+    margin-top: -50px;
+}
+.com p{
+    color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.con p{
+    color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.gen{
+    width: 763px;
+    height: 50px;
+    background-color: rgb(31,30,36);
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.gen p{
+    color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.gem{
+    width: 763px;
+    height: 150px;
+    background-color: rgb(31,30,36);
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.gem p{
+    color: white;
+margin-left: 20px;
+    margin-top: 15px;
+}
+.box2 button{
+    padding: 20px;
+    margin-right: 620px;
+    margin-top: 40px;
+    margin-left: 25px;
+    border: 2px solid yellow;
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    border-radius: 40px;
+    background-color: rgb(23, 21, 27); 
+ }
+ .box2 button:hover{
+     background-color: rgb(201, 201, 10);
+ }
+
+ .con1{
+     width: 1519px;
+     height: 350px;
+     background-color: rgb(231, 224, 210);
+ }
+ .contain{
+     width: 100%;
+     height: 10rem;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     background-image: url(./image/tv\ show15.jpg);
+ }
+ .bus{
+     width: 550px;
+     height: 4rem;
+     background-color: white;
+     margin-left: 800px;
+     margin-top: 50px;
+     border-radius: 10px;
+ }
+ .bus button{
+     padding: 19px;
+     color: rgb(236, 236, 12);
+     background-color: black;
+     margin-left: 412px;
+     margin-top: 3px;
+     border-radius: 10px;
+ }
+ .bus p{
+     margin-top: -40px;
+     margin-left: 20px;
+ }
+ .bee{
+     font-size: 30px;
+     font-weight: bolder;
+     margin-top: -60px;
+     margin-left: 100px;
+ }.be{
+    margin-left: 106px;
+    font-size: 18px;
+ }
+ .container2{
+     width: 100%;
+     height: 30rem;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     background-image: url(./image/tv\ show16.jpg);
+ }
+ .no1 p{
+     font-size: 25px;
+     color: white;
+     margin-left: 1150px;
+     margin-top: 100px;
+     font-weight: bolder;
+ }
+ .no1 hr{
+     margin-right: 325px;
+     margin-top: 10px;
+     margin-left: 1150px;
+     background-color: rgb(216, 216, 9);
+     border: 1px solid yellow;
+ }
+.no2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1150px;
+    margin-top: 30px;
+    gap: 10px;
+}
+ .fa-wechat{
+     width: 40px;
+     font-size: 20px;
+     color: white;
+     height: 40px;
+     background-color: rgb(10, 10, 116);
+     padding-top: 10px;
+     padding-left: 10px;
+     border-radius: 2px;
+ }
+ .fa-snapchat{
+     width: 40px;
+     height: 40px;
+     border-radius: 2px;
+     color: white;
+     font-size: 25px;
+     background-color: rgb(218, 218, 15);
+     margin-top: px;
+     margin-left: px;
+     padding-top: 8px;
+     padding-left: 10px;
+ }
+ .fa-instagram{
+     width: 40px;
+     height: 40px;
+     border-radius: 2px;
+     color: white;
+     font-size: 25px;
+     background-color: rgb(129, 14, 133);
+     margin-top: px;
+     margin-left: px;
+     padding-top: 8px;
+     padding-left: 10px;
+ }
+ .fa-linkedin{
+     width: 40px;
+     height: 40px;
+     border-radius: 2px;
+     color: white;
+     font-size: 25px;
+     background-color: rgb(10, 84, 128);
+     margin-top: px;
+     margin-left: px;
+     padding-top: 8px;
+     padding-left: 10px;
+ }
+ .no3{
+     width: 300px;
+     height: 56px;
+     background-color: rgb(28, 25, 46);
+     border-radius: 50px;
+     margin-left: 1150px;
+     margin-top: 50px;
+ }
+ .see{
+     width: 55px;
+     height: 55px;
+     background-color: rgb(73, 72, 72);
+     border-radius: 100px;
+     margin-left: 240px;
+     margin-bottom: -20px;
+}
+.fa-ship{
+    color: yellow;
+    margin-top: 17px;
+    margin-left: 16px;
+    font-size: 20px;
+}
+.no3 h4{
+    margin-top: -37px;
+    margin-left: 30px;
+    color: rgb(202, 198, 198);
+}
+.coner p{
+    font-size: 25px;
+    color: white;
+    margin-left: 800px;
+    margin-top: -210px;
+    font-weight: bolder;
+}
+.coner hr{
+    margin-right: 670px;
+    margin-top: 10px;
+    margin-left: 800px;
+    background-color: rgb(216, 216, 9);
+    border: 1px solid yellow;
+}
+.coner h3{
+    width: 14%;
+    margin-left: 920px;
+    margin-top: 20px;
+    color: white;
+}
+.coner h5{
+    color: rgb(207, 204, 204);
+    margin-left: 940px;
+    margin-top: -16px;
+}
+.fa-clock-o{
+    color: rgb(219, 219, 21);
+    margin-left: 920px;
+    margin-top: 10px;
+}
+.coner img{
+    width: 7%;
+    height: 83px;
+    border-radius: 3px;
+    margin-left: 800px;
+    margin-top: -90px;
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    margin-left: 450px;
+    margin-top: -200px;
+    line-height: 40px;
+}
+.foot{
+    text-decoration: none;
+    color: rgb(212, 209, 209);
+    font-size: 20px;
+    font-weight: bolder;
+}
+.foot:hover{
+    color: yellow;
+}
+.num{
+    margin-left: 690px;
+    margin-top: -200px;    
+}
+.num1{
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+}
+.tee p{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 450px;
+    margin-top: -260px;
+    margin-bottom: 15px;
+}
+.tee hr{
+    background-color: rgb(216, 216, 9);
+    border: 1px solid yellow;
+    margin-right: 1020px;
+    margin-left: 450px;
+}
+.bee1{
+    margin-top: -380px;
+    margin-left: 100px;
+}
+.bee1 img{
+    width: 12%;
+    margin-top: -00px;
+}
+.bee1 p{
+    width: 20%;
+    font-size: 19px;
+    color: white;
+    margin-top: 20px;
+}
+.bee1 h3{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: rgb(194, 190, 190);
+}
+.fa-twitter{
+    margin-left: -30px;
+}
+.fa-envelope-o{
+    margin-left: -30px;
+}
+.fa-heart{
+    margin-left: -30px;
+}
+.bee2{
+    width: 1519px;
+    height: 70px;
+    background-color: rgb(34, 33, 33);
+    margin-top: 144px;
+}
+.bee2 img{
+    margin-left: 1100px;
+    margin-top: 20px;
+}
+.bee2 p{
+    color: white;
+    margin-top: -25px;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    .container{
+        width: 100%;
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+    .box img{
+        width: 8%;
+        margin-top: 30px;
+        margin-left: px;
+        margin-right: 150px;
+    }
+    .rich{
+        font-size: 10px;
+        margin-left: -20px;
+        margin-top: 20px;
+    }
+
+}
